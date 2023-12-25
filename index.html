@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Flutuar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Martel:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <div class="logo nav">
+                <i class="bi bi-feather me-2 fs-2"></i>
+            <h1 class="navbar-brand m-0 section-title fs-2">Espaço Flutuar</h1>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-feather me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-feather me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-feather me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-feather me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/carousel1.jpg" alt="Produtos de beleza" class="w-100" height="700px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel2.jpg" alt="Mulher recebendo tratamento facial" class="w-100" height="700px">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel0.jpg" alt="Mulher recebendo tratamento corporal" class="w-100" height="700px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/fachada.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da clínica">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o <span class="text-colored">Espaço Flutuar</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ea cupiditate ipsa repellendus ut, reprehenderit consectetur illum debitis, et dolorum quo ducimus dolores! Quis quidem reiciendis, reprehenderit delectus asperiores similique.
+                            </p>
+                            <h3 class="section-title">Nossa <span class="text-colored">infraestrutura</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio explicabo repellat placeat, quod asperiores odio repellendus illum aspernatur dolor quaerat soluta inventore vel maxime corrupti excepturi iure, magnam, similique vero.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">pacotes</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/pack1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Verão 2023
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio tempora perspiciatis numquam sequi quidem excepturi nisi, repellat expedita iure impedit voluptatem deserunt? Excepturi aperiam mollitia laborum, aliquid nesciunt consequuntur.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/pack2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Cuidados essenciais
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio tempora perspiciatis numquam sequi quidem excepturi nisi, repellat expedita iure impedit voluptatem deserunt? Excepturi aperiam mollitia laborum, aliquid nesciunt consequuntur.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/pack3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Emagrecimento certo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis optio tempora perspiciatis numquam sequi quidem excepturi nisi, repellat expedita iure impedit voluptatem deserunt? Excepturi aperiam mollitia laborum, aliquid nesciunt consequuntur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">serviços</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#consultorias" class="fw-bold text-start nav-link text-colored active">Consultorias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#atividades" class="fw-bold text-start nav-link text-colored">Atividades Físicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#massoterapia" class="fw-bold text-start nav-link text-colored">Massoterapia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#estetica" class="fw-bold text-start nav-link text-colored">Estética</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#unhas" class="fw-bold text-start nav-link text-colored">Unhas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="consultorias">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/consultoria/nutricao.jpg" alt="nutrição" >
+                                        <h5 class="text-colored fw-bold mt-2">Nutricional</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/consultoria/avalfis.jpg" alt="avaliação física" >
+                                        <h5 class="text-colored fw-bold mt-2">Avaliação Física</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/consultoria/esporte.jpg" alt="esporte" >
+                                        <h5 class="text-colored fw-bold mt-2">Esportiva</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="atividades">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/atividades/ioga.jpg" alt="ioga" >
+                                        <h5 class="text-colored fw-bold mt-2">Ioga</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/atividades/meditacao.jpg" alt="meditação" >
+                                        <h5 class="text-colored fw-bold mt-2">Meditação</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/atividades/pilates.jpg" alt="pilates" >
+                                        <h5 class="text-colored fw-bold mt-2">Pilates</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="estetica">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/estética/facial.jpg" alt="estética facial" >
+                                        <h5 class="text-colored fw-bold mt-2">Facial</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/estética/corporal.jpg" alt="estética corporal" >
+                                        <h5 class="text-colored fw-bold mt-2">Corporal</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="massoterapia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/massagens/relaxante.jpg" alt="massagem relaxante" >
+                                        <h5 class="text-colored fw-bold mt-2">Massagem Relaxante</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/massagens/modeladora.jpg" alt="massagem modeladora" >
+                                        <h5 class="text-colored fw-bold mt-2">Massagem Modeladora</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="unhas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/unhas/manicure.jpg" alt="manicure" >
+                                        <h5 class="text-colored fw-bold mt-2">Manicure</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="imagens/unhas/pedicure.jpg" alt="pedicure" >
+                                        <h5 class="text-colored fw-bold mt-2">Pedicure</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
